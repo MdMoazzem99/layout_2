@@ -36,6 +36,7 @@ body{
 	text-transform: uppercase;
 	margin: 0px 9px;
 	color: white;
+	transition: .5s;
 	display: block;
 }
 .menu ul li:last-child a{
@@ -43,48 +44,34 @@ body{
 }
 .menu ul li a:hover{
 	color: blue;
-	overflow: hidden;
 }
 .headline{
 	/*border: 5px solid black;*/
-	overflow: hidden;
+	background-image: url(../images/pic_2.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	margin-bottom: 30px;
 }
-.background{
-	width: 100%;
-	margin-bottom: -207px;
+.headline h1 {
+    color: #FFFFFF;
+    padding: 56px 571px;
+    margin-top: 0px;
 }
-.background img{
-	width: 100%;
-}
-.title{
-	/*border: 5px solid black;*/
-}
-.title h1{
-	color: #FFFFFF;
-	margin: 83px 571px;
-}
-.banner_1{
+.container{
 	/*border: 5px solid black;*/
 	margin: 30px 85px;
 }
-.banner_1 h1{
+.container h1{
 	text-align: center;
 }
-.banner_1 p{
+.container p{
 	text-align: justify;
 }
 .banner_2{
 	/*border: 5px solid black;*/
 	margin: 30px 0px;
 	overflow: hidden;
-}
-.wrapper_1{
-	/*border: 5px solid red;*/
-	margin: 0px 85px;
-}
-.wrapper_1 p{
-	text-align: justify;
 }
 .pic_1{
 	/*border: 5px solid blue;*/
@@ -94,41 +81,32 @@ body{
 .pic_1 img{
 	width: 100%;
 }
-.service{
-	/*border: 5px solid black;*/
-	margin: 30px 85px;
+.wrapper_1{
+	/*border: 5px solid red;*/
+	margin: 0px 85px;
+}
+.wrapper_1 p{
+	text-align: justify;
 }
 .wrapper_2{
 	/*border: 5px solid green;*/
 	overflow: hidden;
 	margin-bottom: 20px;
 }
-.pic_2{
-	/*border: 5px solid red;*/
-	width: 30%;
-	margin-right: 29px;
-}
-.pic_2 img{
-	width: 100%;
-}
-.pic_3{
+.wrapper_2 div{
 	/*border: 5px solid blue;*/
+	float: left;
 	width: 30%;
 	margin: 0px 29px;
 }
-.pic_3 img{
+.wrapper_2 div:first-child{
+	margin-left: 0px;
+}
+.wrapper_2 div:last-child{
+	margin-right: 0px;
+}
+.wrapper_2 div img{
 	width: 100%;
-}
-.pic_4{
-	/*border: 5px solid brown;*/
-	width: 30%;
-	margin-left: 29px;
-}
-.pic_4 img{
-	width: 100%;
-}
-.wrapper_2 div{
-	float: left;
 }
 .wrapper_3{
 	/*border: 5px solid red;*/
